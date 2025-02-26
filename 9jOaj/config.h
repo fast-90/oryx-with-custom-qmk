@@ -22,7 +22,7 @@
 #define MOUSEKEY_TIME_TO_MAX 64
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "9jOaj/5WWorq"
+#define SERIAL_NUMBER "9jOaj/x99emL"
 #define LAYER_STATE_16BIT
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
 
