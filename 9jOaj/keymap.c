@@ -82,6 +82,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case MT(MOD_LSFT, KC_T):
+            return g_tapping_term -75;
+        case MT(MOD_RSFT, KC_N):
+            return g_tapping_term -75;
+        default:
+            return g_tapping_term;
+    }
+}
 
 extern rgb_config_t rgb_matrix_config;
 

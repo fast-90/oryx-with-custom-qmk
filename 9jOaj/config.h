@@ -4,7 +4,7 @@
 */
 
 #undef TAPPING_TERM
-#define TAPPING_TERM 185
+#define TAPPING_TERM 250
 
 #define PERMISSIVE_HOLD
 
@@ -22,9 +22,10 @@
 #define MOUSEKEY_TIME_TO_MAX 64
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "9jOaj/AYaLE"
+#define SERIAL_NUMBER "9jOaj/5WWorq"
 #define LAYER_STATE_16BIT
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
 
+#define TAPPING_TERM_PER_KEY
 #define RGB_MATRIX_STARTUP_SPD 60
 
