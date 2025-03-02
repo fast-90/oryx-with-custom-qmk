@@ -8,6 +8,9 @@
 
 #define PERMISSIVE_HOLD
 
+#undef RGB_MATRIX_TIMEOUT
+#define RGB_MATRIX_TIMEOUT 60000
+
 #define USB_SUSPEND_WAKEUP_DELAY 0
 #undef MOUSEKEY_INTERVAL
 #define MOUSEKEY_INTERVAL 16
@@ -22,7 +25,7 @@
 #define MOUSEKEY_TIME_TO_MAX 64
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "9jOaj/x99emL"
+#define SERIAL_NUMBER "9jOaj/XbbRQ6"
 #define LAYER_STATE_16BIT
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
 
