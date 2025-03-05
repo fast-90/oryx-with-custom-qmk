@@ -1,8 +1,3 @@
-/*
-  Set any config.h overrides for your specific keymap here.
-  See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
-*/
-
 #undef TAPPING_TERM
 #define TAPPING_TERM 250
 
@@ -25,7 +20,7 @@
 #define MOUSEKEY_TIME_TO_MAX 64
 
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "9jOaj/XbbRQ6"
+#define SERIAL_NUMBER "9jOaj/Eee3eG"
 #define LAYER_STATE_16BIT
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
 
